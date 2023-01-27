@@ -39,8 +39,8 @@ function App() {
 
   return (
     <Layout>
-      <div className='flex flex-col justify-evenly relative mb-20'>
-        <h1 className='text-center text-white font-bold text-3xl mb-10 md:my-4'>PokeDex</h1>
+      <div className='flex flex-col w-2/5 justify-evenly relative mb-20 mg:w-2/3 md:w-9/12 sm:w-11/12'>
+        <h1 className='text-center text-white font-bold text-3xl mb-10 mg:my-6 md:my-4'>PokeDex</h1>
         <form onSubmit={e => handleSubmit(e)} className="flex flex-col">
           <Input type='number' placeholder="ID" onChange={e => handleSearchParams(e)} />
           <Input type='text' placeholder="Nombre" onChange={e => handleSearchParams(e)} />
@@ -48,7 +48,7 @@ function App() {
         </form>
       </div>
 
-      {isDefault && <h1 className='text-white text-2xl font-bold md:hidden'>Ingresa tu búsqueda</h1>}
+      {isDefault && <h1 className='text-white text-center w-2/5 text-2xl font-bold mg:py-4 md:w-11/12'>Ingresa tu búsqueda por nombre o ID</h1>}
       {isDone && <PokemonCard pokemon={selectedPokemon} />}
       {isLoading && <h1 className='text-white text-3xl font-bold'>Cargando los datos del Pokemon</h1>}
       {isError && <h1 className='text-white text-xl font-bold'>Ningún Pokemon coincide con tu búsqueda.</h1>}

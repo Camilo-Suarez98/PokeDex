@@ -4,7 +4,7 @@ const Input = ({ type, placeholder, onChange }) => {
       type={type}
       placeholder={placeholder}
       onChange={onChange}
-      className="font-bold py-4 px-8 my-4 outline-0 bg-transparent border-2 border-white text-white text-center placeholder:text-white md:text-black md:placeholder:text-black md:font-normal"
+      className="font-bold py-4 px-8 my-4 outline-0 bg-transparent border-2 border-white text-white text-center placeholder:text-white mg:text-black mg:placeholder:text-black mg:font-normal"
     />
   )
 }
