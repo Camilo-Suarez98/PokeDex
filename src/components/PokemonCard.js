@@ -11,18 +11,18 @@ const PokemonCard = ({ pokemon }) => {
         <p className='text-lg text-slate-200'>Weight: <strong className='text-white'>{pokemon.weight}</strong></p>
         <p className='text-lg text-slate-300'>Height: <strong className='text-white'>{pokemon.height}</strong></p>
         <span className='text-lg text-slate-300'>Type: </span>
-        {pokemon.types.map(form => (
-          <span key={form.type.name} className='text-lg font-bold'><strong>{form.type.name}</strong>, </span>
+        {pokemon.types.map((form, index) => (
+          <span key={index} className='text-lg font-bold'><strong>{form.type.name}</strong>, </span>
         ))}
 
         <p className='text-lg text-slate-300'>Stats: </p>
-        {pokemon.stats.map(level => (
-          <span key={level.stat.name} className='text-lg text-slate-300 capitalize'>{level.stat.name}: <strong className='text-white'>{level.base_stat}</strong> <br /> </span>
+        {pokemon.stats.map((level, index) => (
+          <span key={index} className='text-lg text-slate-300 capitalize'>{level.stat.name}: <strong className='text-white'>{level.base_stat}</strong> <br /> </span>
         ))}
 
         <span className='text-lg text-slate-300'>Abilities: </span>
-        {pokemon.abilities.map(quality => (
-          <span key={quality.ability.name} className='text-lg text-slate-300 capitalize'><strong className='text-white'>{quality.ability.name}, </strong></span>
+        {pokemon.abilities.map((quality, index) => (
+          <span key={index} className='text-lg text-slate-300 capitalize'><strong className='text-white'>{quality.ability.name}, </strong></span>
         ))}
       </div>
     </div>
