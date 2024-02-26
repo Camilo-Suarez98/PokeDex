@@ -9,12 +9,11 @@ Here is the project deplyed in Vercel: https://poke-dex-sable.vercel.app/
 - An input to search by Pokemon Name
 - Consume of Pokemon Api from PokeApi: [https://pokeapi.co/](https://pokeapi.co/)
 
-<img width="1440" alt="image" src="https://github.com/Camilo-Suarez98/PokeDex/assets/68169750/77466c36-db8d-41d8-987f-813a88e7cfe9">
+<img width="1304" alt="image" src="https://github.com/Camilo-Suarez98/PokeDex/assets/68169750/5cbdf541-578d-4724-9a5f-1843f3c315c7">
 
-<img width="1257" alt="image" src="https://github.com/Camilo-Suarez98/PokeDex/assets/68169750/8ad3a012-0984-4307-8b7b-b635e93fd1d9">
+<img width="1221" alt="image" src="https://github.com/Camilo-Suarez98/PokeDex/assets/68169750/e834e6c0-4546-4a3b-8dae-0a0ddeed8261">
 
-<img width="1230" alt="image" src="https://github.com/Camilo-Suarez98/PokeDex/assets/68169750/2407c924-cd3d-4420-9e6a-87f17a7b31ae">
-
+<img width="1252" alt="image" src="https://github.com/Camilo-Suarez98/PokeDex/assets/68169750/c2b5290c-4860-4cb1-8f3a-cba4001bb079">
 
 ## Start running 🚀
 
