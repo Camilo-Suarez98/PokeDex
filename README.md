@@ -1,71 +1,74 @@
-# Getting Started with Create React App
+# PokeDex - A page to search for Pokemons and features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed using React.js for the frontend and TailwindCSS.
 
-## Available Scripts
+Here is the project deplyed in Vercel: https://poke-dex-sable.vercel.app/
 
-In the project directory, you can run:
+## Characteristics of the project:
+- An input to search by ID
+- An input to search by Pokemon Name
+- Consume of Pokemon Api from PokeApi: [https://pokeapi.co/](https://pokeapi.co/)
 
-### `npm start`
+<img width="1440" alt="image" src="https://github.com/Camilo-Suarez98/PokeDex/assets/68169750/77466c36-db8d-41d8-987f-813a88e7cfe9">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="1257" alt="image" src="https://github.com/Camilo-Suarez98/PokeDex/assets/68169750/8ad3a012-0984-4307-8b7b-b635e93fd1d9">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<img width="1230" alt="image" src="https://github.com/Camilo-Suarez98/PokeDex/assets/68169750/2407c924-cd3d-4420-9e6a-87f17a7b31ae">
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Start running 🚀
 
-### `npm run build`
+These instructions will allow you to obtain a copy of the running project in your local machine, for the purpose of development and testing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites 📋
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The things you will need to install the software are a computer that isn't too old, a text editor to help you read all the code with pretty colors, and the will to deal with code written by a growing developer!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation 🔧
 
-### `npm run eject`
+1. Clone the repositories to your computer:
+```
+git clone git@github.com:Camilo-Suarez98/PokeDex.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Change directory to /elemental-frontend:
+```
+cd PokeDex
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install the frontend and backend dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Make sure to have installed Node.js:
+```
+sudo apt install nodejs npm
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Then, run npm install on each of the repositories:
+```
+npm install
+```
+OR
+```
+npm i
+```
 
-## Learn More
+4. Run the code!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Make sure to be in each repository:
+```
+cd PokeDex
+```
+Once there, execute
+```
+npm run dev
+```
+For the backend, execute the same commands. Remember to keep both running!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Built with 🛠️
 
-### Code Splitting
+- React: [https://nextjs.org/](https://nextjs.org/)
+- TailwindCSS [https://tailwindcss.com/](https://tailwindcss.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author ✒️
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# PokeDex
+- **Camilo Suárez** - _Developer_ - [https://github.com/Camilo-Suarez98](https://github.com/Camilo-Suarez98)
