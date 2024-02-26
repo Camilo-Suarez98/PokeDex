@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const PokemonCard = ({ pokemon }) => {
   return (
@@ -26,7 +26,7 @@ const PokemonCard = ({ pokemon }) => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PokemonCard
+export default PokemonCard;
