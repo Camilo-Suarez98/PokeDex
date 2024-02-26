@@ -65,7 +65,7 @@ For the backend, execute the same commands. Remember to keep both running!
 
 ## Built with 🛠️
 
-- React: [https://nextjs.org/](https://nextjs.org/)
+- React: [https://react.dev/](https://react.dev/)
 - TailwindCSS [https://tailwindcss.com/](https://tailwindcss.com/)
 
 ## Author ✒️
