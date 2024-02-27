@@ -27,7 +27,7 @@ The things you will need to install the software are a computer that isn't too o
 
 1. Clone the repositories to your computer:
 ```
-git clone git@github.com:Camilo-Suarez98/PokeDex.git
+git clone git@github.com:Camilo-Suarez98/PokeDex
 ```
 
 2. Change directory to /elemental-frontend:
