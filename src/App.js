@@ -54,6 +54,6 @@ function App() {
       {isError && <h1 className='text-white text-xl font-bold'>No Pokemon match your search.</h1>}
     </Layout>
   );
-}
+};
 
 export default App;

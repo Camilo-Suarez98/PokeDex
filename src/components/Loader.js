@@ -10,8 +10,7 @@ const Loader = () => {
       >
       </span>
     </div>
-
-  )
-}
+  );
+};
 
 export default Loader;
