@@ -59,7 +59,7 @@ cd PokeDex
 ```
 Once there, execute
 ```
-npm run dev
+npm run start
 ```
 For the backend, execute the same commands. Remember to keep both running!
 
