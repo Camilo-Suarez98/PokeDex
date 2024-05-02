@@ -2,7 +2,7 @@
 
 This project was developed using React.js for the frontend and TailwindCSS.
 
-Here is the project deplyed in Vercel: https://poke-dex-sable.vercel.app/
+Here is the project deployed in Vercel: https://poke-dex-sable.vercel.app/
 
 ## Characteristics of the project:
 - An input to search by ID
