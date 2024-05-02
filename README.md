@@ -61,7 +61,6 @@ Once there, execute
 ```
 npm run start
 ```
-For the backend, execute the same commands. Remember to keep both running!
 
 ## Built with 🛠️
 
