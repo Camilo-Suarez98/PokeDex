@@ -1,6 +1,6 @@
 # PokeDex - A page to search for Pokemons and features
 
-This project was developed using React.js for the frontend and TailwindCSS.
+This project was developed using React.js and TailwindCSS.
 
 Here is the project deployed in Vercel: https://poke-dex-sable.vercel.app/
 
@@ -30,14 +30,14 @@ The things you will need to install the software are a computer that isn't too o
 git clone git@github.com:Camilo-Suarez98/PokeDex
 ```
 
-2. Change directory to /elemental-frontend:
+2. Change directory to /PokeDex:
 ```
 cd PokeDex
 ```
 
 3. Install the frontend and backend dependencies:
 
-Make sure to have installed Node.js:
+Make sure you have Node.js installed :
 ```
 sudo apt install nodejs npm
 ```
