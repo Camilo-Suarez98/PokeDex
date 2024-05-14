@@ -57,12 +57,13 @@ Make sure to be in each repository:
 ```
 cd PokeDex
 ```
+
 Once there, execute
 ```
 npm run start
 ```
 
-## Built with 🛠️
+## Built with 🛠️:
 
 - React: [https://react.dev/](https://react.dev/)
 - TailwindCSS [https://tailwindcss.com/](https://tailwindcss.com/)
